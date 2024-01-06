@@ -1,0 +1,38 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    width: 100%;
+    top: 0;
+    font-size: 25px;
+    background-image: linear-gradient(to right, rgb(2, 67, 120) , rgb(174, 187, 245));
+    color: aliceblue;
+}
+
+.note{
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+.div_speed{
+    float:left;
+}
+
+.div_speed_img, .div_volume_img{
+    width: 200px;
+    border-radius: 100px;
+}
+
+canvas{ 
+   border: 10px double whitesmoke ;
+    border-radius: 20px;
+}
+
+#play_button{
+  width: 120px;
+  height: 40px;  
+  font-size: medium;
+  background-color: rgb(255, 154, 171);
+  border-radius: 12px;
+}
